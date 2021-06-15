@@ -19,7 +19,7 @@ class Sider extends React.Component {
         formData.append("groupByField",'type');
         axios.post('https://abi.arcgisonline.cn/server/rest/services/System/SpatialAnalysisTools/GPServer/AggregatePoints/submitJob',formData)
     }
-    // sadsad
+    // sads
   };
 
   render() {
